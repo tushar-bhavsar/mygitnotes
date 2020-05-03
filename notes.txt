@@ -17,3 +17,7 @@ git commit -m "Message" = To add the additional comment/message to the specific 
 
 git log = To check the logs of the commit made on the files
 git log --online = To check the logs of the commit made on the files in short line.
+
+git checkout unique id of the commit = To check the state of the file during that commit made.
+git checkout master = again it will show the latest state of the file.
+(note this command will not do any change or revert the file to the point in time commit)
