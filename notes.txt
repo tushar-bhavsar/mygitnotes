@@ -1,0 +1,19 @@
+Git Commands
+
+Git init = To initialize the Git inside particular folder.
+ Git Repository are divided into three staging area
+	1- Modified
+	2- Stage
+	3- Commit
+
+git add filename = to add single file in the repo in the staging area.
+git add . = add all the files in the repo in the staging area.
+
+git status = To know the status of the file weather its in state of Staged or not. (make sure the color of the file in Green)
+git rm --cached = Unstage the files from the staging.
+
+git commit = To commit the changes in the local GIT repo.
+git commit -m "Message" = To add the additional comment/message to the specific commit.
+
+git log = To check the logs of the commit made on the files
+git log --online = To check the logs of the commit made on the files in short line.
