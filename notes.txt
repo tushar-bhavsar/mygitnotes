@@ -47,3 +47,7 @@ This happens when you edit on the master file without telling team.
 In this case verify the conflict and edit the code in the line and add and commit the change.
 
 GitHub
+
+- git push github url "branchname" : to upload the repository on github
+- git remote add origin "github url"
+ 
