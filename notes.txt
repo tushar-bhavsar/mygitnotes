@@ -50,4 +50,8 @@ GitHub
 
 - git push github url "branchname" : to upload the repository on github
 - git remote add origin "github url"
- 
+- git clone "github repo url" = This will clone the repo over web to the local desktop.
+- git remote -v = If you have cloned the remote repo over to you desktop and would like to push back the changes back to the remote
+repo then no need to add the alias in git. Just run this command to know the branch and repo name and run the push Commands
+
+  
