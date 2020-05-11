@@ -53,5 +53,18 @@ GitHub
 - git clone "github repo url" = This will clone the repo over web to the local desktop.
 - git remote -v = If you have cloned the remote repo over to you desktop and would like to push back the changes back to the remote
 repo then no need to add the alias in git. Just run this command to know the branch and repo name and run the push Commands
+- git pull origin master = This command will pull the updates happened over on the online GitHub repo onto our local
+repo. (Make sure before running this command you should be at master branch of the local repo)
 
-  
+Steps for Updating the Local and Online Repository
+- Create a new branch by using the command "git checkout -b branchname"
+- Once branchname is created then add new code.
+- Stage the new line of code by typing :git add .
+- Commit the changes on the new branch : git commit -m "message"
+- Push the branch and updated over GitHub : git push origin "branchname"
+- Check the GitHub that branch is appearing over there.
+- Check and verify before merging.
+- merge on github
+- Pull the updated code on local repository
+- First switch the working file repo to master : git checkout master
+- run command to pull the merged file from GitHub : git pull origin master
