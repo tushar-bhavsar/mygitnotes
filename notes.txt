@@ -16,7 +16,7 @@ git commit = To commit the changes in the local GIT repo.
 git commit -m "Message" = To add the additional comment/message to the specific commit.
 
 git log = To check the logs of the commit made on the files
-git log --online = To check the logs of the commit made on the files in short line.
+git log --oneline = To check the logs of the commit made on the files in short line.
 
 git checkout unique id of the commit = To check the state of the file during that commit made.
 git checkout master = again it will show the latest state of the file.
@@ -45,3 +45,5 @@ will merge the changes which was carried out in the designated branchname.
 Some times there will be conflict between the branch and the master file while merging the files.
 This happens when you edit on the master file without telling team.
 In this case verify the conflict and edit the code in the line and add and commit the change.
+
+GitHub
